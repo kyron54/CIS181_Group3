@@ -30,6 +30,13 @@ header {
     border-bottom: 2px solid #eaeaea;
 }
 
+footer {
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: #222;
+    color: white;
+}
+
 .logo {
     font-size: 2rem;
     font-weight: bold;
@@ -97,19 +104,22 @@ main {
 }
 
 .intro p,
-.plan-overview p {
+.plan-overview p,
+.diet-overview p {
     margin-bottom: 1rem;
 }
 
 /* Training Container */
-.training-container {
+.training-container,
+.diet-container {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 2rem;
 }
 
-.plan-details {
+.plan-details,
+.diet-details {
     flex: 2;
 }
 
@@ -124,13 +134,20 @@ main {
 }
 
 /* Lists */
-.training-list {
+.training-list,
+.food-list {
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-.training-list li {
+.training-list li
+{
     margin-bottom: 0.5rem;
+}
+
+.list-header 
+{
+    padding: 0.5rem 0;
 }
 
 /* Content Cards */
