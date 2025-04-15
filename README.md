@@ -7,3 +7,9 @@ Okay, A few things. In order to run a website you will need to follow a few step
 1. type into the Terminal: "python -m http.server". This will run the website on the 8000 port. 
 2. Click ports down below and mouse over the 8000 port. It should have a green circle next to it.
 3. When moused over, the port should have an globe icon appear. You want to click that to see the website run. The website should open in another tab.
+
+Once you get the website preview working, you'll want to make sure you are committing your changes and pushing them before you leave your work.
+1. Make sure all the changes you made are finalized, or at least in a good spot for you to stop. Don't push code that is broken or doesn't work. It makes it harder to develop later on for both you and others.
+2. On the left pane, go to the third button titled "Source Control."
+3. Write a message briefly describing the changes you made. Try to keep it short, but make sure you are stating what you changed, such as the file/page you worked on on images you added.
+4. Press "Commit" Then press "Sync Changes."
