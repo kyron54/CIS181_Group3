@@ -7,6 +7,7 @@ Okay, A few things. In order to run a website you will need to follow a few step
 1. type into the Terminal: "npm i -g http-server". This will create the website server on the 8080 port. Once done, type http-server to run it.
 2. Click ports down below and mouse over the 8000 port. It should have a green circle next to it.
 3. When moused over, the port should have an globe icon appear. You want to click that to see the website run. The website should open in another tab.
+4. Any time you need to reopen the server, simply type "http-server" and hit Enter in the Terminal.
 
 Once you get the website preview working, you'll want to make sure you are committing your changes and pushing them before you leave your work.
 1. Make sure all the changes you made are finalized, or at least in a good spot for you to stop. Don't push code that is broken or doesn't work. It makes it harder to develop later on for both you and others.
