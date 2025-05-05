@@ -1,0 +1,17 @@
+Welcome to Runners Peak
+Our mission is to help marathon runners or those desiring to become a marathon runner train efficiently and safely. Please feel free to explore Runners Peak for training plans, marathon nutritional advice, gear recommendations, recovery strategies, and motivational content.
+
+<h1>About Us</h1>
+Runners Peak was birthed through the collaboration of four college students given a group project to create a web site. We are passionate about helping to build a community of people who aspire to adopt a lifestyle of physical fitness through running. We educate, motivate, and offer tools to support those desiring to complete a marathon race. To train and run in a race requires discipline, resilience, and perseverence which are admirable traits to facilitate character development. 
+
+<h1>Contact Us</h1>
+<address>Runners Peak<br/>
+City Colleges of Chicago<br/>
+180 N Wabash<br/>
+Chicago, IL 60601<br/></address>
+
+<p>Call: <a href="tel:+7732655343">(773) 265-5343</a></p>
+
+<footer>
+<a href="">Home</a>
+</footer>
