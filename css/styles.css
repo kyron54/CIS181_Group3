@@ -136,7 +136,11 @@ main {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-
+.splash-image 
+{
+    display: block;
+    width: 100%
+}
 
 .intro p,
 .plan-overview p,
@@ -163,7 +167,8 @@ main {
 }
 
 .placeholder-img {
-    width: 100%;
+    width: 200%;
+    height: 100%;
     border-radius: 10px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
