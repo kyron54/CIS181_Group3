@@ -71,7 +71,7 @@ nav li {
     margin: 0.5rem;
 }
 
-nav a, nav p {
+nav a {
     color: #fff;
     padding: 0.5rem 1rem;
     background-color: #444;
@@ -111,15 +111,6 @@ main {
     display: inline-block;
 }
 
-.dropbtn
-{
-    color: #fff;
-    padding: 2rem 1rem;
-    background-color: #444;
-    border-radius: none;
-    transition: background 0.3s;
-}
-
 .dropdown-content
 {
     display: none;
@@ -127,20 +118,25 @@ main {
     z-index: 1;
 }
 
+.dropbtn a
+{
+   text-decoration: none; 
+}
+
 .dropdown-content a
 {
     color: #fff;
-    padding: 0.5rem 1rem;
-    background-color: #444;
-    border-radius: 4px;
+    display: block;
+    margin: 0.5rem 0rem;
+    border: 0.5rem 0rem;
+    background-color: #222;
     transition: background 0.3s;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #e63946;}
+
 
 .intro p,
 .plan-overview p,
