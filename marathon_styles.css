@@ -6,6 +6,69 @@ Date: 5-01-2025
 File: marathon_styles.css
 */
 
+/* Header */
+header {
+    background-color: #eee;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #eaeaea;
+}
+
 body {
 	font-family: 'Verdana', sans-serif;
+	background-color: #f9f9f9;
+	color: #333;
+	padding: 40px 20px;
+	max-width: 1000px;
+	margin: auto;
+
 }
+
+.logo2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.logo2 span {
+    color: #e63946;
+}
+
+article h1 {
+    
+    font-size: 1.5rem;
+    color: #777777;
+}
+
+article h2 {
+	font-size: 1.4em;
+	color: #e63946;
+}
+
+table.menu {
+	background: white;
+	border: 10px outset #A9B0B3;
+	border-collapse: collapse
+	font-size: 0.75em;
+	width: 100%;
+}
+
+/* Table cell styles */
+
+table.menu th, table.menu td {
+	border: 1px solid gray
+}
+
+table.menu caption {
+	caption-side: bottom;
+	text-align: left;
+}
+
+footer {
+            background: #000000; /* Black footer */
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+        }
