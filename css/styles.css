@@ -136,7 +136,11 @@ main {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-
+.splash-image 
+{
+    display: block;
+    width: 100%
+}
 
 .intro p,
 .plan-overview p,

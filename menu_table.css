@@ -3,7 +3,7 @@
 table.menu {
 	background: white;
 	border: 10px outset rgb(107,142,35);
-	border-collapse: collapse
+	border-collapse: collapse;
 	font-size: 0.75em;
 	width: 100%;
 }
