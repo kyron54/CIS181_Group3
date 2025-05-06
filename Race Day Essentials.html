@@ -3,124 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Race Day Essentials</title>
-    <style>
-        body {
-            font-family: 'Verdana', sans-serif;
-            background-color: #ffffff;
-            color: #000000;
-            margin: 0;
-            padding: 0;
-            line-height: 1.5;
-        }
-        header {
-            background: #666666; /* Gray background for header */
-            color: #ffffff;
-            padding: 20px 10px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        } 
-        header p {
-            font-size: 18px;
-        }
-        .section {
-            padding: 40px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        .section h2 {
-            color: #CC4C4C; /* Warmer, deeper red */
-            margin-bottom: 12px;
-        }
-        .section p {
-            margin-bottom: 10px;
-            font-size: 18px;
-        }
-        .tips {
-            background: #f9f9f9; /* Very light background */
-            padding: 30px 20px;
-            margin-top: 30px;
-            border-left: 5px solid #CC4C4C; /* Warmer red for border */
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        .button {
-            display: inline-block;
-            padding: 12px 24px;
-            margin-top: 20px;
-            background: #CC4C4C; /* Warmer red for button */
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .button:hover {
-            background: #b03d3d; /* Deeper red on hover */
-            box-shadow: 0 0 15px #cc4c4c;
-            transform: scale(1.05);
-            transition: all 0.3s ease;
-        }
-        footer {
-            background: #000000; /* Black footer */
-            color: #ffffff;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-    </style>
+    <title>Marathon Training Plan - Calendar Runners</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header>
-    <h1>Ready to Run</h1>
-    <p>"Being race day ready means more than just showing up — it’s about feeling strong, confident, and excited for every mile ahead. With the right essentials, you’re not just running a race — you’re chasing greatness"</p> 
-    <h1>👟 Stride with Confidence 🧠 Mental Preparation / Motivation</h1>
-    <p>Take time to visualize your race success and a strong mindset carries you through tough miles!</p>
-    <p>Gear up strong, race with heart, and make every mile unforgettable!</p>
-    <a href="#essentials" class="button">Start Your Journey</a>
-</header>
+    <header>
+        <a href="index.html" class="logo">Calendar<span>Runners</span></a>
+        <h1 class="page-title">Marathon Training Plan</h1>
+    </header>
 
-<section class="section" id="essentials">
-    <h2>Proper Running Shoes</h2>
-    <p>Fit and comfort matter most. Shoes should be broken in but not worn out, chosen for your gait, arch, and terrain.</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li class="dropdown">
+                <a class="dropbtn active">Training Plans</a>
+                <div class="dropdown-content">
+                    <a href="5k-training.html">5K Training</a>
+                    <a href="10k-training.html">10K Training</a>
+                    <a href="half-marathon-training.html">Half Marathon</a>
+                    <a href="marathon-training.html" class="active">Marathon</a>
+                    <a href="ironman-training.html">Ironman</a>
+                </div>
+            </li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="aboutUs.html">About</a></li>
+        </ul>
+    </nav>
 
-    <h2>Moisture-Wicking Apparel</h2>
-    <p>Stay dry and cool with performance fabrics. Avoid cotton to prevent chafing and help regulate body temperature.</p>
+    <main>
+        <section class="intro">
+            <h2>The Ultimate Endurance Challenge</h2>
+            <p>The marathon (26.2 miles) is the pinnacle of endurance running. It's a test of physical preparation, mental toughness, and race-day strategy.</p>
+        </section>
 
-    <h2>Anti-Chafing Balm or Vaseline</h2>
-    <p>Protect high-friction areas like inner thighs, underarms, and feet to prevent irritation during your run.</p>
+        <section class="plan-overview">
+            <h2 class="section-title">Conquering 26.2 Miles</h2>
+            <p>The marathon distance isn't just about running—it's about preparation, strategy, and mental fortitude. Our comprehensive training plan builds the endurance and resilience needed to cross the finish line.</p>
+            <p>This 12-20 week program is designed to gradually increase your mileage, build mental toughness, and teach you how to fuel properly for the ultimate running challenge.</p>
+        </section>
 
-    <h2>Running Socks</h2>
-    <p>Choose cushioned, moisture-wicking socks to keep feet dry and prevent blisters. Avoid cotton!</p>
+        <div class="training-container">
+            <div class="plan-details">
+                <h2 class="section-title">How to Train for a Marathon (12-20 Weeks Plan)</h2>
 
-    <h2>Hydration Solution</h2>
-    <p>Use a hydration belt, handheld bottle, or vest. Staying hydrated is key even in shorter races.</p>
+                <h3>Your Weekly Structure</h3>
+                <ul class="training-list">
+                    <li>5–6 runs per week</li>
+                    <li>Long runs extending to 20-22 miles</li>
+                    <li>Marathon pace runs (10-12 miles at goal pace)</li>
+                    <li>Speed and strength training to build resilience</li>
+                </ul>
 
-    <h2>Fuel (For Longer Distances)</h2>
-    <p>Energy gels, chews, or small snacks help maintain stamina, especially during 10Ks, half-marathons, and marathons.</p>
+                <h3>Key Workouts</h3>
+                <ol class="training-list">
+                    <li><strong>Long Runs:</strong> The backbone of marathon training, building up to 20+ miles.</li>
+                    <li><strong>Tempo Runs:</strong> Sustained efforts to build lactate threshold.</li>
+                    <li><strong>Marathon Pace Work:</strong> Training your body to run efficiently at goal pace.</li>
+                    <li><strong>Recovery Runs:</strong> Easy runs that build mileage without stress.</li>
+                </ol>
+            </div>
 
-    <h2>Identification & Emergency</h2>
-    <p>Carry an ID, emergency contact info, and medical alerts if needed. Safety first, always.</p>
+            <div class="plan-image">
+                <img src="images/marathon.jpg" alt="Marathon runner" class="placeholder-img">
+            </div>
+        </div>
 
-    <h2>Pacing Strategy / Timing Device</h2>
-    <p>Use a watch, app, or race-provided timing device to stay on track with your goal pace.</p>
-</section>
+        <section>
+            <h2 class="section-title">The Wall: Miles 18-20</h2>
+            <p>Most marathoners hit a wall at mile 18-20. Why? Glycogen depletion. That's why fueling is crucial.</p>
 
-<section class="section tips">
-    <h2>Quick Tips for Special Conditions</h2>
+            <div class="content-card">
+                <h3>How to Break Through the Wall</h3>
+                <ul class="training-list">
+                    <li><strong>Mental Preparation:</strong> Know the wall is coming and have strategies ready.</li>
+                    <li><strong>Proper Fueling:</strong> Take in carbs early and consistently throughout the race.</li>
+                    <li><strong>Pacing Strategy:</strong> Don't bank time early—it will cost you later.</li>
+                    <li><strong>Training Specificity:</strong> Incorporate 18-20 mile runs in training to teach your body to push past fatigue.</li>
+                </ul>
+            </div>
+        </section>
 
-    <h3>🌦️ Weather</h3>
-    <p>Rain poncho, waterproof running cap, insulated layers for cold, and sun protection for hot weather runs.</p>
+        <section>
+            <h2 class="section-title">Fueling for the Marathon</h2>
+            <div class="nutrition-tips">
+                <div class="content-card">
+                    <h3>Before the Race</h3>
+                    <p>Carb-load 2-3 days before (but don't overdo fiber). Increase carbohydrate intake to 70-80% of your diet in the 48-72 hours before race day. Maintain good hydration without overdrinking.</p>
+                </div>
 
-    <h3>🌙 Night Running</h3>
-    <p>Stay visible with headlamps, reflective vests, and LED lights on shoes or clothing. Safety first when running in the dark!</p>
-</section>
+                <div class="content-card">
+                    <h3>During the Race</h3>
+                    <p><strong>30-60g carbs per hour</strong> (gels, chews, sports drinks). Start fueling early—don't wait until you feel hungry or tired. Hydrate early to prevent dehydration, taking in fluids at every aid station.</p>
+                </div>
 
-<footer>
-    <p>Chase Your Goals | The Start Line Is Just the Beginning</p>
-</footer>
+                <div class="content-card">
+                    <h3>After the Race</h3>
+                    <p>Immediate protein (chicken, eggs, or protein shake) + carbs. Begin refueling within 30 minutes of finishing. Replace lost electrolytes and continue hydrating for 24-48 hours post-race.</p>
+                </div>
+            </div>
+        </section>
 
+        <section class="video-section">
+            <h2 class="section-title">Watch: Marathon Training in Action</h2>
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aotpFXNSHSc" title="Ironman Marathon Training" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HcKQfLBzJyY" title="Diet for Runners" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Calendar Runners</h3>
+                <p>Your monthly companion for training plans, race prep, and nutrition.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Pages</h3>
+                <ul class="footer-links">
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Calendar Runners. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
